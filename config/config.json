@@ -3,6 +3,7 @@
 	"username": "postgres",
 	"password": "123456",
 	"dialect": "postgres",
+	"url":"postgresql://postgres:plmeEuBTqySOHYoaRoJtKLbOrRIVRper@roundhouse.proxy.rlwy.net:52131/railway",
 	"define": {
 	  "freezeTableName": "true",
 	  "paranoid": "true"
