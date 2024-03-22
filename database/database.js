@@ -9,7 +9,7 @@ const sequelize = new Sequelize(
 sequelize
   .authenticate()
   .then(() => {
-    console.log('Connected to PgAdmin');
+    console.log('Connected to PgAdmin');  
   })
   .catch((error) => {
     console.error('Failed to connect to PgAdmin:', error);
