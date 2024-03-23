@@ -3,7 +3,7 @@
 	"username": "postgres",
 	"password": "123456",
 	"dialect": "postgres",
-	"url":"postgresql://postgres:plmeEuBTqySOHYoaRoJtKLbOrRIVRper@roundhouse.proxy.rlwy.net:52131/railway",
+	"url":"postgres://default:oCDdxqA1H2Ly@ep-dawn-cherry-a41u6ea4.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require",
 	"define": {
 	  "freezeTableName": "true",
 	  "paranoid": "true"
