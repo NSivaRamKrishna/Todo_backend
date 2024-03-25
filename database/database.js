@@ -1,11 +1,10 @@
+const pg = require('pg')
 const Sequelize = require("sequelize");
 const config = require("../config/config.json");
-const sequelize = new Sequelize(
-	  config.url,
-	config
-);
 
-
+const sequelize = new Sequelize(config.url, {
+  dialectModule: pg
+});
 sequelize
   .authenticate()
   .then(() => {
